@@ -1,9 +1,11 @@
 .sidebar{
     flex: 1;
     height: calc(100vh - 50px);
-    background-color: rgba(248, 248, 255, 0.959);
     position: sticky;
     top: 50px;
+    box-shadow: 10px 10px 5px -8px rgba(41, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px -8px rgba(41, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px -8px rgba(41, 0, 0, 0.75);
 }
 
 .sidebarWrapper{
@@ -34,7 +36,7 @@
 }
 
 .sidebarListItem.active, .sidebarListItem.hover{
-    background-color: rgba(227, 227, 240, 0.959);
+    background-color: rgba(203, 203, 207, 0.986);
 }
 
 .sidebarIcons{
