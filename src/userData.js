@@ -48,3 +48,48 @@ export const userData = [
         activeUser: 4000
     },
 ];
+
+
+export const userRows = [
+    {
+        id: 1, 
+        userName: 'chiadikaobi',
+        avatar: 'https://www.linkpicture.com/q/IMG-0975.jpg',
+        email: 'chiadikaobixo@gmail.com',
+        status: 'active',
+        transaction: '$650.89'
+    },
+    {
+        id: 2, 
+        userName: 'chiadikaobi',
+        avatar: 'https://www.linkpicture.com/q/IMG-0975.jpg',
+        email: 'chiadikaobixo@gmail.com',
+        status: 'active',
+        transaction: '$650.89'
+    },
+    {
+        id: 3, 
+        userName: 'chiadikaobi',
+        avatar: 'https://www.linkpicture.com/q/IMG-0975.jpg',
+        email: 'chiadikaobixo@gmail.com',
+        status: 'active',
+        transaction: '$650.89'
+    },
+    {
+        id: 4, 
+        userName: 'chiadikaobi',
+        avatar: 'https://www.linkpicture.com/q/IMG-0975.jpg',
+        email: 'chiadikaobixo@gmail.com',
+        status: 'active',
+        transaction: '$650.89'
+    },
+    {
+        id: 5, 
+        userName: 'chiadikaobi',
+        avatar: 'https://www.linkpicture.com/q/IMG-0975.jpg',
+        email: 'chiadikaobixo@gmail.com',
+        status: 'active',
+        transaction: '$650.89'
+    },
+
+];

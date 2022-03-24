@@ -4,6 +4,7 @@ import './app.css'
 import Home from "./pages/home/Home";
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import UserList from "./pages/userList/UserList";
+import User from "./pages/user/User";
 
 const App = () => {
   return (
@@ -12,8 +13,9 @@ const App = () => {
       <div className="container">
         <SideBar />
         <Switch>
-          <Route path="/" component={Home} exact={true}/>
-          <Route path="/users" component={UserList}/>
+          <Route path="/" component={Home} exact={true} />
+          <Route path="/users" component={UserList} />
+          <Route path="/user/:id" component={User} />
         </Switch>
       </div>
     </BrowserRouter>
