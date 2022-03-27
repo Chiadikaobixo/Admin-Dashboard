@@ -7,3 +7,8 @@
     text-decoration: none;
     color: inherit;
 }
+
+.app.dark {
+    background-color: #111;
+    color: rgb(156, 156, 156);   
+}

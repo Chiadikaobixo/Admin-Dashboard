@@ -5,7 +5,7 @@ import { productRows } from "../../userData";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-export default function ProductList() {
+const ProductList = () => {
   const [data, setData] = useState(productRows);
 
   const handleDelete = (id) => {
@@ -67,3 +67,5 @@ export default function ProductList() {
     </div>
   );
 }
+
+export default ProductList
